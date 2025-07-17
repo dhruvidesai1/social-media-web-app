@@ -43,46 +43,6 @@ social/
 ├── db.sqlite3                 # SQLite DB
 ├── manage.py
 
----
-
-## 📸 Screenshots
-
-| Feed Page | Register Page |
-|----------|----------------|
-| ![Feed](users/static/users/images/social.png) | ![Register](users/static/users/images/share.png) |
-
----
-
-## 🛠️ Installation
-
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/yourusername/social-media-app.git
-   cd social-media-app
-
-	2.	Create and activate a virtual environment
-
-python -m venv env
-source env/bin/activate  # On Windows: env\Scripts\activate
-
-
-	3.	Install dependencies
-
-pip install -r requirements.txt
-
-
-	4.	Apply migrations
-
-python manage.py migrate
-
-
-	5.	Run the server
-
-python manage.py runserver
-
-
-
-⸻
 
 👩‍💻 Tech Stack
 	•	Python 3.12
